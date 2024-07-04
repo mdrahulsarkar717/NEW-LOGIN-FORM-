@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+}
+
+/*---------------- START ------------------*/
+body{
+    width: 100%;
+    height: 100vh;
+    background: #F2F6FF;
+}
+header{
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);;
+    z-index: 40;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header h1{
+    font-size: 1.8em;
+    margin-left: 10px;
+}
+header p{
+    position: relative;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 2em;
+    margin-right: 20px;
+    display: inline-block;
+    text-shadow: 0 0 10px white;
+    font-weight: ;
+    transition: 0.1s;
+    rotate: 7deg;
+}
+header p:hover{
+    transform: scale(0.9);
+}
+
+/*-------------- HEADER END -------------------*/
+
+.main{
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+}
+.main .content{
+    padding-top: 200px;
+}
+form{
+    width: 400px;
+    height: auto;
+    background: /*#ACACAC;*/
+}
+
+form input{
+    width: 98%;
+    height: 30px;
+    background: transparent;
+    border: none;
+    border-bottom: 1.5px solid black;
+    outline: none;
+    font-size: 1.3em;
+    padding: 0 20px;
+    margin-top: 40px;
+}
+form input:hover{
+    border-bottom-color: #BD77E2
+}
+form .placeholder{
+    position: absolute;
+    width: 100%;
+    margin-left: 4%;
+    margin-top: -28px;
+    opacity: 0.5;
+    transition: 0.3s;
+    display: block;
+}
+
+form .placeholder:hover{
+    margin-top: -55px;
+    opacity: 1;
+}
+
+form .forget{
+    margin: 20px;
+    margin-left: 5px;
+}
+form .forget #forget{
+    text-decoration: none;
+    color: #09A4CE;
+    display: block;
+    outline: none;
+    border: none;
+    background: transparent;
+    margin-bottom: 20px; 
+}
+form .forget #forget:hover{
+    color: #973FE4;
+    text-decoration: underline;
+}
+form .btn{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    background: #AD8CFF;
+    color: white;
+    transition: 0.1s;
+    border-radius: 1px;
+}
+form .btn:hover{
+    margin-top: 2px;
+    background: #8250FF;
+}
+form .another{
+    text-align: center;
+    margin-top: 20px;
+}
+form .login-another{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+form .login-another .ano{
+    text-decoration: none;
+    background: #345699;
+    color: white;
+    font-weight: 500;
+    width: 90px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 33px;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px black;
+    font-size: 0.8em;
+    transition: 0.1s;
+}
+form .login-another .google{
+    background: #FF5A5A;
+    margin-left: -70px;
+}
+form .login-another .ano:hover{
+    transform: scale(0.9);
+}
+.dont-account{
+  width: 100%;
+  height: 40px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.7);
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
+.dont-account .account{
+    line-height: 40px;
+    text-align: right;
+    margin-right: 20px;
+    font-size: 1.1em;
+}
+.dont-account .account a{
+    text-decoration: none;
+    color: #09A4CE;
+    transition: 0.1s;
+    transition-delay: 0.1s;
+}
+.account a:hover{
+    transform: scale(0.9);
+    text-decoration: underline;
+    color: #AF1AFF;
+}
+/*-----------BODY END----------------*/
